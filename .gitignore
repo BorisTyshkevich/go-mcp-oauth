@@ -1,0 +1,22 @@
+# Go build artifacts
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go workspace and vendored deps
+/vendor/
+go.work
+go.work.sum
+
+# Coverage
+coverage.out
+coverage.html
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
