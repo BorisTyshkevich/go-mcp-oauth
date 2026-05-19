@@ -156,6 +156,11 @@ suffix in `hkdfInfo*` labels (one purpose at a time, no downtime).
 
 - Package overview and security model: see `doc.go`.
 - Runnable usage example: see `example_test.go`.
+- Self-contained forward-mode broker example:
+  [`examples/hosting/main.go`](examples/hosting/main.go).
+- How to forward the validated bearer to backends (Authorization vs
+  X-JWT-Assertion vs X-Grafana-Id; pro / con of each):
+  [`docs/forwarding-to-backends.md`](docs/forwarding-to-backends.md).
 - Known issues / followups from initial review: see [`KNOWN_ISSUES.md`](KNOWN_ISSUES.md).
 
 ---
